@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "name":"CBD Gel-tablets Premium",
+        "image":"https://d3p3h3s8.stackpathcdn.com/wp-content/uploads/2020/11/bottle-s-1-1.png",
+        "sku":"SKU: SBMW-001-009-4",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price":17.93,
+        "ratings":"5"
+    },
+    {
+        "id":2,
+        "name":"CBD Gel-tablets Premium",
+        "image":"https://d3p3h3s8.stackpathcdn.com/wp-content/uploads/2020/11/bottle-s-1-1.png",
+        "sku":"SKU: SBMW-001-009-4",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price":17.93,
+        "ratings":"5"
+    },
+    {
+        "id":3,
+        "name":"CBD Gel-tablets Premium",
+        "image":"https://d3p3h3s8.stackpathcdn.com/wp-content/uploads/2020/11/bottle-s-1-1.png",
+        "sku":"SKU: SBMW-001-009-4",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price":17.93,
+        "ratings":"5"
+    },{
+        "id":4,
+        "name":"CBD Gel-tablets Premium",
+        "image":"https://d3p3h3s8.stackpathcdn.com/wp-content/uploads/2020/11/bottle-s-1-1.png",
+        "sku":"SKU: SBMW-001-009-4",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price":17.93,
+        "ratings":"5"
+    },{
+        "id":5,
+        "name":"CBD Gel-tablets Premium",
+        "image":"https://d3p3h3s8.stackpathcdn.com/wp-content/uploads/2020/11/bottle-s-1-1.png",
+        "sku":"SKU: SBMW-001-009-4",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price":17.93,
+        "ratings":"5"
+    },
+    {
+        "id":6,
+        "name":"CBD Gel-tablets Premium",
+        "image":"https://d3p3h3s8.stackpathcdn.com/wp-content/uploads/2020/11/bottle-s-1-1.png",
+        "sku":"SKU: SBMW-001-009-4",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price":17.93,
+        "ratings":"5"
+    }
+]

@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './components/Pages/Accounts/Login';
+import Register from './components/Pages/Accounts/Register';
+import Footer from './components/Inc/Footer/Footer';
+import Header from './components/Inc/Header/Header';
+import Home from './components/Home/Home';
+import AuthProvider from './context/AuthProvider';
+import RequireAuth from './utility/RequireAuth';
+import Checkout from './components/Pages/Checkout/Checkout';
+import Service from './components/Pages/Service/Service';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AuthProvider>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="login" element={<Login />} />
+            <Route path="register" element={<Register />} />
+            <Route path="/service/:id" element={<RequireAuth>
+              <Service />
+            </RequireAuth>} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }
