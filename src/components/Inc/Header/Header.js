@@ -7,8 +7,8 @@ const Header = () => {
   
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light  bg-gray-900">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-light fixed-top w-full z-50 bg-green-900 ">
+                <div className="container">
                     <div className="md:w-1/6 w-2/6">
                         <Link to="/"><img alt="logo"
                             src={"https://i.ibb.co/GczsJyh/Cannabio.png"}
@@ -20,13 +20,25 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse ms-auto" id="navbarNav">
                         <ul className="navbar-nav  ms-auto">
-                            <li className="nav-item">
+                        <li className="nav-item">
                                 <Link to="/" className="block text-white py-2 pr-4 pl-3 " >Home</Link>
                             </li>
 
-                            {!user?.email && <li><Link className="text-white block py-2 pr-4 pl-3" to="/login">Login</Link></li>}
+                            <li className="nav-item">
+                                <Link to="/" className="block text-white py-2 pr-4 pl-3 " >About</Link>
+                            </li>
 
-                            {user?.email && <li><div className="gap-2 flex items-center ml-10"><span className="text-green-400">{user?.displayName}</span><button className="text-white block py-2 pr-4 pl-3" onClick={logout}>Logout</button></div></li>}
+                            <li className="nav-item">
+                                <Link to="/" className="block text-white py-2 pr-4 pl-3 " >Shop</Link>
+                            </li>
+
+                            <li className="nav-item">
+                                <Link to="/" className="block text-white py-2 pr-4 pl-3 " >FAQ</Link>
+                            </li>
+
+                            {!user?.displayName && <li><Link className="text-white block py-2 pr-4 pl-3 bg-green-700  transition  duration-0 hover:duration-150 ease-in-out hover:rounded-br-full hover:rounded-tl-none rounded-tl-full rounded-bl-full rounded-tr-full" to="/login">Login</Link></li>}
+
+                            {user?.displayName && <li><div className="gap-2 flex items-center ml-10"><span className="text-green-400">{user?.displayName}</span><button className="text-white block py-2 pr-4 pl-3 hover:rounded-br-full bg-green-700 hover:rounded-tl-none rounded-tl-full rounded-bl-full rounded-tr-full" onClick={logout}>Logout</button></div></li>}
                         </ul>
                     </div>
                 </div>

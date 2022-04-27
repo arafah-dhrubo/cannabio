@@ -18,15 +18,7 @@ const useFirebase = () => {
 
     const auth = getAuth()
     const googleProvider = new GoogleAuthProvider();
-    const signInWithGoogle = () => {
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user)
-            })
-            .catch(error => {
-                setError(error.msg)
-            })
-    }
+    
 
     useEffect(() => {
         onAuthStateChanged(auth, user => {
@@ -51,12 +43,14 @@ const useFirebase = () => {
         error,
         setError,
         auth,
-        signInWithGoogle,
+        signInWithPopup,
         createUserWithEmailAndPassword,
         setIsLoading,
         logout,
         updateProfile,
-        signInWithEmailAndPassword
+        signInWithEmailAndPassword,
+        googleProvider,
+        isLoading
     }
 }
 

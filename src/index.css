@@ -5,3 +5,12 @@
 body{
     font-family: 'IBM Plex Serif', serif;
 }
+
+.accordion-button:focus{
+    background-color: white;
+    color: green;
+}
+
+.img-property{
+    object-fit: contain;
+}

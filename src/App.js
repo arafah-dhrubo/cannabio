@@ -9,10 +9,11 @@ import AuthProvider from './context/AuthProvider';
 import RequireAuth from './utility/RequireAuth';
 import Checkout from './components/Pages/Checkout/Checkout';
 import Service from './components/Pages/Service/Service';
+import ScrollButton from './utility/ScrollButton';
 
 function App() {
   return (
-    <div>
+    <div className='relative'>
       <AuthProvider>
         <BrowserRouter>
           <Header />
@@ -24,6 +25,7 @@ function App() {
               <Service />
             </RequireAuth>} />
           </Routes>
+          <ScrollButton/>
           <Footer />
         </BrowserRouter>
       </AuthProvider>

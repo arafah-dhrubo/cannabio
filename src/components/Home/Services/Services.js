@@ -10,8 +10,9 @@ const Services = () => {
           <img className="w-3/6 mx-auto" alt="Service" src="https://d3p3h3s8.stackpathcdn.com/wp-content/uploads/2021/05/Marijuana.png"/>
           </div>
            <div className="text-center"><p className="text-green-600 text-sm font-bold">OUR BESTSELLERS</p>
-           <h1 className="font-bold text-4xl">Online Shop</h1></div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">{service}</div>
+           <h1 className="font-bold text-4xl underline underline-offset-8 decoration-wavy  decoration-green-600">Online Shop</h1>
+           </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">{service}</div>
    </div>
    </div>
   )
