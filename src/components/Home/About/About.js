@@ -6,7 +6,7 @@ const About = () => {
    <div className='bg-green-900 py-28'>
       <div className="grid text-white grid-cols-1 md:grid-cols-2 mx-auto w-5/6 flex items-center gap-5">
       <div>
-        <img alt="banner" src="http://calmes.like-themes.com/wp-content/uploads/2021/01/about-plate.png" />
+        <img alt="banner" src="https://i.ibb.co/2h4mJkV/about-plate.png" />
       </div>
       <div>
         <div className='text-center'>

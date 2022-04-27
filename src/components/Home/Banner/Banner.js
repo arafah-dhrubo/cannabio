@@ -15,7 +15,7 @@ const Banner = () => {
                 <div className="my-16" style={{
                     backgroundImage: `url("https://i.ibb.co/3kDjcGf/curcles.png")`, backgroundSize: "contain", backgroundRepeat: "no-repeat"
                 }}>
-                    <img alt="" className="w-4/6 md:ml-auto " src="http://calmes.like-themes.com/wp-content/uploads/2021/01/main-02-slider.png" />
+                    <img alt="" className="w-4/6 md:ml-auto " src="https://i.ibb.co/936nxM4/main-02-slider.png" />
                 </div>
             </div>
         </div>
